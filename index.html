@@ -43,11 +43,27 @@
           <h2>Cat Form</h2>
           <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
           <fieldset>
-          <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor</label>
+           <!-- 51 -->
+           <legend>Is your cat an indoor or outdoor cat?</legend>
+          <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked> Indoor</label>
           <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor</label>
         </fieldset>
           <input type="text" name="catphotourl " placeholder="cat photo URL" required>
           <button type="submit">submit</button>
+          <!-- 52 -->
+        <fieldset>
+          <!-- 53 -->
+          <legend>What's your cat's personality?</legend>
+          <!-- 54 55-->
+          <!-- <input type="checkbox" id="loving"> Loving -->
+          <!-- 56 57 -->
+          <input id="loving" type="checkbox"  name="personality" value="loving" checked> <label for="loving">Loving</label>
+          <!-- 58 -->
+          <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+          <!-- 59 -->
+          <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+        </fieldset>
+
         </section>
     </main>
 
